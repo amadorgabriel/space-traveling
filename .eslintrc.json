@@ -2,7 +2,8 @@
   "env": {
     "browser": true,
     "es2021": true,
-    "node": true
+    "node": true,
+    "jest": true
   },
   "extends": [
     "plugin:react/recommended",
@@ -34,12 +35,7 @@
     "camelcase": "off",
     "import/no-duplicates": "off",
     "react/jsx-props-no-spreading": "off",
-    "prettier/prettier": [
-      "error",
-      {
-        "endOfLine": "lf"
-      }
-    ],
+    "prettier/prettier": "error",
     "react/react-in-jsx-scope": "off",
     "react/prop-types": "off",
     "jsx-a11y/anchor-is-valid": [
