@@ -3,7 +3,7 @@ import { GetStaticPaths, GetStaticProps } from 'next';
 import { getPrismicClient } from '../../services/prismic';
 
 import commonStyles from '../../styles/common.module.scss';
-import styles from './post.module.scss';
+import styles from '../../styles/pages/post.module.scss';
 
 interface Post {
   first_publication_date: string | null;
